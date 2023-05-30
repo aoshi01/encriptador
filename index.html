@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Encriptador Alura</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1>Cifrador Cyberpunk</h1>
+  
+      <div class="form-group">
+        <label for="text-input" class="label">Texto:</label>
+        <textarea id="text-input" class="input-text" rows="5" placeholder="Ingresa el texto"></textarea>
+      </div>
+  
+      <div class="buttons">
+        <button id="encrypt-button" class="button" onclick="encrypt()">Encriptar</button>
+        <button id="decrypt-button" class="button" onclick="decrypt()">Desencriptar</button>
+        <button id="copy-button" class="button" onclick="copyResult()" disabled>Copiar</button>
+      </div>
+  
+      <div class="form-group">
+        <label for="result" class="label">Resultado:</label>
+        <textarea id="result" class="input-text" rows="5" placeholder="Aquí aparecerá el resultado" readonly></textarea>
+        <div id="image-placeholder"></div>
+      </div>
+  
+      <footer class="footer">
+        Diseño por Leandro Rodriguez
+        <img src="logo.png" alt="Imagen" class="footer-image">
+      </footer>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  
+  </html>
+
+</html>
